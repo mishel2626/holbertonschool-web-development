@@ -1,0 +1,276 @@
+header {
+    background-image: url("./images/Header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.menu-container {
+    margin: 0px;
+    width: 300px;
+    float: right;
+}
+
+.menu-container>li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.menu-container>li>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.schooled {
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 150px;
+    letter-spacing: 10px;
+}
+
+.categories {
+    width: 20%;
+    margin: 50px auto;
+}
+
+.categories>li {
+    color: #ffffff;
+    font-weight: bold;
+    list-style-type: none;
+    width: 70px;
+    display: inline-block;
+    text-align: center ;
+    
+}
+
+.register {
+    display: block;
+    margin: 120px auto;
+    background-color: #C271FF;
+    padding: 15px;
+    border-radius: 40px;
+    border: 0px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.learn {
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.purple {
+    color: #c271ff;
+}
+
+.students {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.student {
+    float: left;
+    width: 23%;
+    filter: none;
+    text-align: center;
+    color: #ffffff;
+}
+
+.student>img {
+    display: block;
+    margin: 0 auto;
+}
+
+.testimonial {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.testimonial>div:first-of-type {
+    width: 30%;
+    float: left;
+}
+
+.testimonial>div:first-of-type>img {
+    float: right;
+}
+
+.testimonial>div:last-of-type {
+    width: 60%;
+    float: left;
+}
+
+.testimonial>div:last-of-type>p {
+    margin-top: 40px;
+}
+
+
+.tutorials>h4 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.tutorials {
+    width: 95%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.tutorial {
+    float: left;
+    width: 19%;
+    margin: 30px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.play-icon {
+    position: absolute;
+    top: 25%;
+    left: 37%;
+}
+
+.philip>img {
+    width: 30px;
+    height: 30px;
+}
+
+.star {
+    overflow: hidden;
+}
+
+.star>ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    float: left;
+}
+
+.star>span {
+    float: right;
+}
+
+.star>ul>li {
+    display: inline-block;
+}
+
+.memberships {
+    margin: 0px auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+.membership {
+    float: left;
+    width: 24%;
+}
+
+.memberships>h4 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+.membership>h4 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+.membership>img {
+    margin: 0 auto;
+    display: block;
+}
+
+.membership>p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+.custom-register {
+    margin: 30px auto;
+}
+
+.faq{
+    width: 70%;
+    margin:0 auto;
+}
+.faq>h2{
+    text-align:center;
+    padding:40px;
+    font-weight:bold;
+    font-size: 50px;
+}
+.faq-container{
+    display:inline-block;
+    width: 49%;
+    }
+.faq-container>h5, .faq-container>p{
+    margin:30px 60px 30px 60px;
+}
+.faq-container>h5{
+    font-weight:bold;
+    }
+.faq-container>p{
+    color:#07162980;
+    line-height: 1.5;
+}
+
+footer {
+    overflow: hidden;
+    background-color: #071629;
+}
+
+
+footer>ul {
+    list-style-type: none;
+}
+
+footer>ul>li {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+footer>img {
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+footer>h4{
+    margin-left: 150px;
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+footer>ul {
+    float: right;
+}
